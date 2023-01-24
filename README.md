@@ -6,7 +6,7 @@
 ## $ git branch <branch_name>
     We can use the git branch command for creating, listing and deleting branches.By using branches, several developers are able to work in parallel on the same project simultaneously. 
 
-## $ git push -u <remote> <branch-name>
+## $ git push -u <remote><branch-name>
     To push the new branch into the remote repository git push 
     
 ## $ git branch --list
