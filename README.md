@@ -37,7 +37,7 @@
 ## $ git commit -m "commit message"
     Git commit is used to save the changes when we reached the pparticular point of development.It is like setting a checkpoint in the development process which you can go back to later if needed.
 
-## $ git push <remote> <branch-name>
+## $ git push <remote> <branch_name>
     After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
 
 ## $ git push -u origin <branch_name>
@@ -67,7 +67,7 @@
 ## $ git stash drop [name]
     name: The name of the stash you want to delete.
     
-## $ git merge <branch-name>
+## $ git merge <branch_name>
     This command is used to merge the another branch with the current branch. The code present in the current branch and merged branch will be merged.
     
 ## $ git init
@@ -76,10 +76,10 @@
 ## $ git config
     This command is used to configure the username and email of the person working on the local repository.
 
-## $ git config --global user.name = <name>
+## $ git config --global user.name = <user_name>
     This command is used to configure the username
     
-## $ git config --global user.email = <email>
+## $ git config --global user.email = <user_email>
     This command is used to configure the email
     
 ## $ git log
@@ -103,19 +103,19 @@
 ## $ git diff
     This command is used to view the difference between the files in the one commit and another commit.
 
-## $ git diff <commit1-hashkey> <commit2-hashkey>
+## $ git diff <commit1_hashkey> <commit2_hashkey>
     To view the changes between two different commits
     
-## $ git diff <branch1-name> <branch2-name>
+## $ git diff <branch1_name> <branch2_name>
     To view the changes between two different branches
     
 ## $ git fetch
     This command will download the changes from the remote repository to the local repository. This will get the updates that are made to the remote repository into the local repository. This will only download the change and does not merge the changes.
     
-## $ git fetch <remote-url>
+## $ git fetch <remote_url>
     This command is used to fetch a remote repo
     
-## $ git fetch <remote-url> <branch-name>
+## $ git fetch <remote_url> <branch_name>
     This command is used to fetch a specific remote branch
 
 ## $ git fetch -all
@@ -124,7 +124,7 @@
 ## $ git reset <commit id>
     This command is used to undo the changes. This will reset the current state of the HEAD to any specific state.
     
-## $ git rm <file-name>
+## $ git rm <file_name>
     This command is used to used to delete a file or files from the repo
     
 ## $ git rm --cached
@@ -133,13 +133,13 @@
 ## $ git tag
     This command is used to tag a commit and tag can be refered in future. A branch can have any number of tags. Tags can be names of the versions.
 
-## $ git tag <tag-name>
+## $ git tag <tag_name>
     This command is used to create a tag
 
-## $ git show <tag-name>
+## $ git show <tag_name>
     This command is used to list the tag names
     
-## $ git push origin <tag-name>
+## $ git push origin <tag_name>
     This command is used to push a specific tag to remote repo
 
  
