@@ -9,15 +9,15 @@
 ## $ git branch --list
     this command is used to view the list of branches
 
-## $ git branch -d <branch-name>
+## $ git branch -d <branch_name>
     this is used to delete a branch
     
     
-## $ git checkout git branch -d <branch-name>
+## $ git checkout git branch -d <branch_name>
     Git checkout is mostly used for switching from one branch to another. We can also use it for checking out files and commits.
  
     
-## $ git checkout -b <name-of-your-branch>
+## $ git checkout -b <name_of_your_branch>
     This command allows us to create and switch to a branch at the same time
     
 ## $ git status
